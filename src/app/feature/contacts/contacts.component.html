@@ -1,0 +1,23 @@
+<h2>Contacts</h2>
+ 
+    <ul *ngIf="candidate">
+        <li> Location: {{candidate.contacts.location}} </li>
+      
+        <li class="row">
+            <a [href]=candidate.contacts.gitHubLink>
+                <img src="assets/github_logo.jpg" alt="github_logo">
+                GitHub</a>
+        </li>
+        <li class="row">
+            <a [href]=candidate.contacts.linkedInLink>
+                <img src="assets/linkedin-48.png" alt="linkedin">
+                LinkedIn</a>
+        </li>
+        <li class="row">
+            <a href="https://github.com/vyevt/my-resume">
+                 <img class="row" src="assets/github-sign.png" alt="github_logo">
+           Soure  code </a> 
+                
+        </li>
+            </ul>
+ 

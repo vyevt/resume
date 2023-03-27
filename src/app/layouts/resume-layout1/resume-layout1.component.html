@@ -1,0 +1,52 @@
+<div class="container">
+    <aside>
+        <app-contacts [candidate]="candidate"></app-contacts>
+    </aside>
+    <main>
+        <section>
+            <article>
+                <h2>{{candidate.role}}</h2>
+                <h1>{{candidate.name}}</h1>
+            </article>
+        </section>
+        <section>
+            <h2>Summary:</h2>
+            <ol>
+                <li *ngFor="let summary of candidate.summary" class="summary">
+                    {{summary}}
+                </li>
+            </ol>
+        </section>
+        <section>
+            <article>
+                <h2>About me</h2>
+                <p class="card"> {{candidate.intro}}</p>
+            </article>
+            <article>
+                <h2>Skills</h2>
+                <app-skills [skills]="skills"></app-skills>
+            </article>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <article *ngFor="let exp of expirience">
+                <app-expirience-card [project]="exp"> </app-expirience-card>
+            </article>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <p><strong>Self-taugh, hands-on experience</strong></p>
+            <p>-Google</p>
+            <p>-Stack Overflow</p>
+        </section>
+        <section>
+            <h2>Additional</h2>
+            <p>{{candidate.additional}}</p>
+        </section>
+
+
+    </main>
+</div>
+<footer>
+    <app-footer></app-footer>
+</footer>

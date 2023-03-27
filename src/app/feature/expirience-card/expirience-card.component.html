@@ -1,0 +1,19 @@
+<ng-container *ngIf="project">
+    <span> Main responsibilities: </span>
+    <ol>
+        <ng-container *ngFor="let task of project.tasks index as i">
+            <li *ngIf="i<3">
+                -{{task}}
+            </li>
+        </ng-container>
+        <ng-container *ngIf="project.tasks.length>3">
+            <button (click)="openDialog(project.title, project.tasks)">
+                {{project.tasks.length-3}} more. Show
+            </button>
+        </ng-container>
+    </ol>
+    <strong> {{project.title}}</strong>
+    <div>- {{project.desription}}
+        <a *ngIf="project.link" [href]="project.link"> link</a>
+    </div>
+</ng-container>
