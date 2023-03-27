@@ -26,5 +26,5 @@ export const candidate: Candidate = {
     ,
     additional: 'Before meeting NodeJs, I was developing \
     simple test projects on C# and Java, learning to work with Visual Studio,\
-    IntelliJ IDEA, Android Studio, Creating 3D models in Blender software,   and using  Godot Engine'
+    IntelliJ IDEA, Android Studio, Creating 3D models in Blender software,  and using  Godot Engine'
 }      
