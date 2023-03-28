@@ -1,24 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes, TitleStrategy } from '@angular/router';
- import { AboutComponent } from './feature/about/about.component';
 import { ResumeLayout1Component } from './layouts/resume-layout1/resume-layout1.component';
 import { SiteNamePageTitleStrategy } from './site-name-page-title-strategy';
 
 const routes: Routes = [{
   path: '',
   component: ResumeLayout1Component,
-   children: [
-    {
-      path: '',
-      component: AboutComponent
+  children: [
 
-    },
 
-    {
+    /*{
       path: '',
       loadChildren: () => import('./layouts/footer/footer.module').then(m => m.FooterModule),
       outlet: 'footer'
-    },
+    },*/
   ]
 },
 {
