@@ -9,11 +9,7 @@ const routes: Routes = [{
   children: [
 
 
-    /*{
-      path: '',
-      loadChildren: () => import('./layouts/footer/footer.module').then(m => m.FooterModule),
-      outlet: 'footer'
-    },*/
+    
   ]
 },
 {
