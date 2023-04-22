@@ -4,28 +4,45 @@
     background-color: #fafafa;
     margin: 0 0 16px;
     display: flex;
+    padding: 10px;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     transition: all 0.2s ease-in-out;
     line-height: 24px;
     background-color: #eee;
- 
+
 
     li {
         font-size: 15px;
     }
-   span,ol, strong, div{
-   margin:   5px;
-    width: 20%;
-   }
-   ol{
-    padding: 10px;
-    width: 40%;
 
-   }
- 
-     
+    button {
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: rgb(244, 155, 155);
+
+        transition: all 0.2s ease-in-out;
+    }
+
+    span,
+    ol,
+    strong,
+    div {
+        padding: 5px;
+        hyphens: auto;
+        width: 20%;
+    }
+
+    ol {
+        padding: 10px;
+        width: 40%;
+
+    }
+
+
 
 }
 
@@ -41,9 +58,8 @@ li {
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 960px) {
     :host {
-
         flex-direction: column;
     }
 
