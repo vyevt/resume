@@ -2,41 +2,31 @@
     border-radius: 4px;
     border: 1px solid #eeeeee;
     background-color: #fafafa;
-    margin: 0 8px 16px;
-    padding: 16px;
+    margin: 0 0 16px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     transition: all 0.2s ease-in-out;
     line-height: 24px;
     background-color: #eee;
-    min-width: fit-content;
-
-    strong {
-        padding: 10px;
-        margin: 10px;
-        max-width: 33%;
-     }
+ 
 
     li {
         font-size: 15px;
     }
+   span,ol, strong, div{
+   margin:   5px;
+    width: 20%;
+   }
+   ol{
+    padding: 10px;
+    width: 40%;
 
-    span {
-        min-width: 15%;
+   }
+ 
+     
 
-    }
-
-    ol {
-        min-width: 35%;
-    }
-    strong,div,
-    span,
-    ol {
-        padding: 10px;
-        margin: 10px;
-    }
 }
 
 li {
@@ -52,11 +42,15 @@ li {
 
 
 @media screen and (max-width: 767px) {
-    :host{
+    :host {
 
         flex-direction: column;
     }
-    ol ,strong, span, div{
+
+    ol,
+    strong,
+    span,
+    div {
         display: flex;
         justify-content: center;
         flex-direction: column;
