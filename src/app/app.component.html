@@ -118,6 +118,6 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <router-outlet></router-outlet>
-<footer *ngIf="router.url === 'about'"   >
+<footer *ngIf="router.url !== '/about'"   >
   <app-footer></app-footer>
 </footer>
