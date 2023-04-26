@@ -22,7 +22,7 @@
     }
 
     button:hover {
-        background-color: rgb(244, 155, 155);
+        background-color: rgb(246, 157, 157);
 
         transition: all 0.2s ease-in-out;
     }
@@ -52,7 +52,7 @@ li {
 
 :host:hover {
     border-radius: 20px;
-    background-color: #ff000033;
+    background-color: rgba(236, 206, 206, 0.2);
 
 
 }
@@ -61,7 +61,8 @@ li {
 @media screen and (max-width: 960px) {
     :host {
         flex-direction: column;
-    }
+        hyphens: auto;
+        text-align: center;     }
 
     ol,
     strong,
@@ -71,5 +72,25 @@ li {
         justify-content: center;
         flex-direction: column;
         min-width: 100%;
+    }
+    div,ol {
+        text-align: start; 
+
+    }
+
+    ol{
+        order: 2;
+        
+    }
+    div{
+        order:3
+        
+    }
+    span{
+        order: 1;
+    }
+    strong{order: 0;
+    
+    
     }
 }

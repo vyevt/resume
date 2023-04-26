@@ -1,19 +1,31 @@
 .skill-details-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 40%;
-  }
-  mat-chip-listbox {
-    width: 60%;
-    max-height: fit-content;
-  }
- 
-  
-  .standart {
-    display: flex;
-    justify-content: center;
-   align-items: center;
-   margin: auto;
-   color: red;
-   }
-  
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+  justify-content: center;
+  padding: 0 0 0 10px;
+  hyphens: auto;
+  text-align: center;
+
+}
+
+mat-chip-listbox {
+  width: 60%;
+}
+
+mat-chip-option {
+  overflow: auto;
+  flex-grow: 1;
+
+}
+
+.standart {
+  display: flex;
+  justify-content: center;
+  hyphens: auto;
+  text-align: center;
+
+  flex-direction: column;
+  padding: 0 0 0 10px;
+  color: red;
+}
