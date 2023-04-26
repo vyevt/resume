@@ -10,20 +10,20 @@
 }
 
 mat-chip-listbox {
-  width: 60%;
-}
+  min-width: 60%;
+ }
 
 mat-chip-option {
   overflow: auto;
   flex-grow: 1;
-
-}
+ }
 
 .standart {
   display: flex;
   justify-content: center;
   hyphens: auto;
   text-align: center;
+  min-width: 40%;
 
   flex-direction: column;
   padding: 0 0 0 10px;
