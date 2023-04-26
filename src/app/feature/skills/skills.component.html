@@ -1,6 +1,6 @@
  <mat-chip-listbox>
  
-        <mat-chip-option *ngFor="let skill of skills"color="warn" (click)="optionSelected(skill)">
+        <mat-chip-option   *ngFor="let skill of skills"color="warn"  #chip (click)="chip.selected =optionSelected(skill)">
             {{skill.name}}
         </mat-chip-option>
  </mat-chip-listbox>

@@ -10,13 +10,15 @@ export class SkillsComponent {
  @Input() skills!: Skill[]
  
   selectedSkill: Skill | null = null
-  optionSelected(event: Skill): void {
+  optionSelected(event: Skill): boolean {
     if (this.selectedSkill == event) {
       this.selectedSkill = null
-      return
+      return false
 
     }
 
     this.selectedSkill = event
+    return true
+
 }
 }
