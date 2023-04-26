@@ -26,12 +26,17 @@ export const skills: Skill[] = [
    
   }
   , {
-    name: 'Critical and analytical thinking',
+    name: 'Critical thinking',
     description: 'Ability to learning, find errors and provide solutions.',
     level: 'Advanced',
    
   },
-
+  {
+    name: 'Analytical thinking',
+    description: 'Ability to learning, find errors and provide solutions.',
+    level: 'Advanced',
+   
+  },
   {
     name: 'CSS',
     description: 'Ability to develop responsive design from Figma.',
