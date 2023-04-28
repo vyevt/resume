@@ -15,25 +15,26 @@ export const skills: Skill[] = [
   },
   {
     name: 'Angular',
-    description: 'Proficient in designing and developing most Front-end tasks.',
+    description: 'I am skilled in designing and developing various front-end tasks.',
     level: 'Advanced',
    
   }
   , {
     name: 'MEAN',
-    description: 'Ability to design and develop simple app.',
-    level: 'Entry-level',
+    description: 'Ability to design and develop app.',
+    level: 'Intermediate',
    
   }
   , {
     name: 'Critical thinking',
-    description: 'Ability to learning, find errors and provide solutions.',
+    description: 'Ability to predict the most possible code behavior and UX \
+    cases, according to required goals and tailored to your needs.',
     level: 'Advanced',
    
   },
   {
     name: 'Analytical thinking',
-    description: 'Ability to learning, find errors and provide solutions.',
+    description: 'Ability to learning, identify errors and provide solutions.',
     level: 'Advanced',
    
   },
@@ -77,8 +78,8 @@ export const skills: Skill[] = [
   {
     name: 'Angular Material',
     level: 'Entry-level',
-    description: 'I don`t like to use Angular Material since in most cases \
-    it can`t be reused for specific tasks (unless it CDK primitive).\
+    description: 'I don\'t like to use Angular Material, since in most cases \
+    it can\'t be reused for specific tasks (unless it CDK primitive).\
     I like write things from scratch using Angular power and RxJs.',
    
   },
@@ -95,7 +96,7 @@ export const skills: Skill[] = [
   },{
     name: 'Verbal English',
     level: 'Entry-level',
-    description: 'Very basic level, ability to listen and speak very basic things. I prefer written English for communication.',
+    description: 'Basic level, ability to listen and speak basic things. I prefer written English for communication.',
    
   },
 ];

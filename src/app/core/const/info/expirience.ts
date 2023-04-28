@@ -9,7 +9,7 @@ export const candidateExpirience: Experience[] = [{
 
 },
 {
-  title: "Angular 15 development, Figma",
+  title: "Angular 15 development, Figma using and development",
   desription: "my private internet store project (2022 - current time)",
   tasks: ["Creating components designs using Figma",
     'Implementing lazy-load modules, routing / API points, Page Guards, TS interfaces, enums',
@@ -22,12 +22,12 @@ export const candidateExpirience: Experience[] = [{
 
 },
 {
-  title: "Hands-on self-taught Angular 12-15 development",
+  title: "Hands-on Angular 12-15 development, self-taught experience",
   desription: "my sandbox projects (2020 - current time)",
   link: "https://vyevt.github.io/angular-site-gh_pages",
   tasks: ['Design app architecture (independent / loosely coupled feature modules)',
-    'Using Angular 12,13,14,15',
-    'Migrating from legacy Angular 12 to Angular 13,14,15',
+    'Using Angular 12, 13, 14, 15',
+    'Migrating from legacy Angular 12 to Angular 13, 14, 15',
     'Refactor code according to new version requirements, bugs fixing',
     'Recreating the UI from Figma',
     'Creating new features: pages, layouts, components, modules, routing / REST API implementation, page guards',
