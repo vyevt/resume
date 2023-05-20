@@ -1,6 +1,16 @@
 import { Experience } from "../interfaces/expirience.interface";
 
-export const candidateExpirience: Experience[] = [{
+export const candidateExpirience: Experience[] = [
+  
+   {
+    title: "Angular 16",
+    desription: "Portfolio project",
+    link:"https://vyevt.github.io/portfolio/",
+    tasks: ["Developed page from Figma design"
+    ]
+  
+  },
+  {
   title: "Angular 15 development",
   desription: "resume project (03.2023)",
   tasks: ["Design and developed my resume website",
