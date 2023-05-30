@@ -12,7 +12,7 @@ export const candidate: Candidate = {
         "Able to handle up to 75-85% of front-end Angular tasks independently",
         "Open to remote, freelance, short-term contract, contractual tasks / projects",
         "Committed to providing quality code and web/eCommerce development from outset"],
-    intro: "By working with me, you will get quality code & web / e-Commerce development. \
+    intro: "By working with me, you will get quality approach to coding & web/eCommerce development. \
          I specialize in front-end Angular tasks and can handle up to 75-85 % of these tasks independently. \
          I possess critical and analytical mindset skills.\
          My hands-on experience with 3 years self-taugh of Angular enabling me to develop quality \
@@ -20,8 +20,9 @@ export const candidate: Candidate = {
       Within my other experience and understanding of MEAN stack I beelive that I can help\
        you with developing. In my work, I'm always trying to predict the most possible code behavior and UX \
        cases, according to required goals and tailored to your needs.\
-       Keep in mind that I don't have commercial experience, Nonetheless I have\
-      enough hands-on, and I'm looking to find commercial one"
+         I have more 4 years hands-on programming, non commercial, experience with JavaScript    \
+         and I am open to new projects to work with to apply and improve my skills. "
+ 
     ,
     additional: 'Before meeting NodeJs (2016-2019), I was developing \
     my private projects on C# and Java, working with software development \

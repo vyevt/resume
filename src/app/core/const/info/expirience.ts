@@ -6,7 +6,9 @@ export const candidateExpirience: Experience[] = [
     title: "Angular 16",
     desription: "Portfolio project",
     link:"https://vyevt.github.io/portfolio/",
-    tasks: ["Developed page from Figma design"
+    tasks: [
+       "Developed page From free design found on Figma", 
+      "Using named Angular router outlet and lazy-loading"
     ]
   
   },
@@ -54,9 +56,12 @@ export const candidateExpirience: Experience[] = [
     'Developing the Front-end and deploy it using ExpressJS',
     'Writing JavaScript logic for ExpressJS API endpoints',
     'Creating Mongoose schemas and manipulating MongoDB data',
+    'implementation CRUD functionality with MongoDb and Mongoose',
+    'Creating structures of Db and its tables',
     'Using Cheerio library to scrape and manipulate HTML data'
   ],
-
+ 
+    
 }
   ,
 {
@@ -67,6 +72,7 @@ export const candidateExpirience: Experience[] = [
     'Writing JavaScript logic',
     'Creating Mongoose schemas and manipulating MongoDB data',
 
+    
   ]
 
 }

@@ -7,6 +7,7 @@ import { Skill, Candidate, Experience } from 'src/app/core/const/interfaces';
 import { ContactsModule } from 'src/app/feature/contacts/contacts.module';
 import { SkillsModule } from 'src/app/feature/skills/skills.module';
 import { FooterModule } from "../footer/footer.module";
+import { Meta } from '@angular/platform-browser';
 
 
 
@@ -33,12 +34,14 @@ export class ResumeLayout1Component {
   showDialog = false;
 
 
+   
 
-  constructor(candidateService: CandidateService) {
+  constructor(candidateService: CandidateService, private meta: Meta) {
     this.candidate = candidateService.candidate
     this.expirience = candidateService.expirience
     this.skills = candidateService.skills
-
+    this.meta.addTag({ name: 'description', 
+    content: 'Author:' +  this.candidate.name});
   }
 
 
