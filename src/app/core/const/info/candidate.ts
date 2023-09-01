@@ -15,11 +15,11 @@ export const candidate: Candidate = {
     intro: "By working with me, you will get quality approach to coding & web/eCommerce development. \
          I specialize in front-end Angular tasks and can handle up to 75-85 % of these tasks independently. \
          I possess critical and analytical mindset skills.\
-         My hands-on experience with 3 years self-taugh of Angular enabling me to develop quality \
+         My hands-on experience with 3+ years self-taugh of Angular enabling me to develop quality \
      code and front-end web solutions while implementing best practices from the outset.\
       Within my other experience and understanding of MEAN stack I beelive that I can help\
        you with developing. In my work, I'm always trying to predict the most possible code behavior and UX \
-       cases, according to required goals and tailored to your needs.\
+       cases, according to your needs.\
          I have more 4 years hands-on programming, non commercial, experience with JavaScript    \
          and I am open to new projects to work with to apply and improve my skills. "
  
