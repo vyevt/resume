@@ -6,11 +6,7 @@ import { SiteNamePageTitleStrategy } from './site-name-page-title-strategy';
 const routes: Routes = [{
   path: '',
   component: ResumeLayout1Component,
-   children: [
-    
-
- 
-  ]
+  
 },
 {
   path: 'about',
