@@ -1,13 +1,1 @@
-@use '@angular/material' as mat;
-@import '@angular/material/theming';
-@include mat-core();
-$my-app-accent: mat-palette($mat-pink, 500, 900, A100);
-$my-app-warn: mat-palette($mat-deep-orange);
-$my-primary: mat.define-palette(mat.$indigo-palette, 500);
-
-// The "warn" palette is optional and defaults to red if not specified.
-$my-warn: mat.define-palette(mat.$red-palette);
-$my-app-theme: mat-light-theme($my-primary, $my-app-accent, $my-app-warn);
-
-
-@include angular-material-theme($my-app-theme);
+ 
