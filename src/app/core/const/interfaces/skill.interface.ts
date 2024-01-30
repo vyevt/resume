@@ -1,8 +1,6 @@
- 
-  
- export interface Skill {
-    name?: string;
-    description?: string;
-     
-  level?:string
-  }
+export interface Skill {
+  name?: string;
+  description?: string;
+  selected?: boolean
+  level?: string
+}

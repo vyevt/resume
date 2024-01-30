@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
-import { Experience } from 'src/app/core/const/interfaces/expirience.interface';
+ import { Experience } from 'src/app/core/const/interfaces/expirience.interface';
 import { DialogComponent } from '../dialog/dialog.component';
 
 
@@ -11,14 +10,14 @@ import { DialogComponent } from '../dialog/dialog.component';
 })
 export class ExpirienceCardComponent {
 @Input() project!:  Experience 
-constructor(public dialog: MatDialog){}
+constructor( ){}
 openDialog(title:string, tasks:string[]) {
-  this.dialog.open(DialogComponent, {
+  /* this.dialog.open(DialogComponent, {
     data: {
       tasks: tasks,
       title: title,
 
     },
-  });
+  }); */
 }
 }

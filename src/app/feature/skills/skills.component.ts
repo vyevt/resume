@@ -9,8 +9,8 @@ import { Skill } from 'src/app/core/const/interfaces/skill.interface';
 export class SkillsComponent {
  @Input() skills!: Skill[]
  
-  selectedSkill: Skill | null = null
-  optionSelected(event: Skill): boolean {
+  selectedSkill: Skill  | null = null
+  optionSelected(event: Skill ): boolean {
     if (this.selectedSkill == event) {
       this.selectedSkill = null
       return false

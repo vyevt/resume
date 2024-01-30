@@ -1,9 +1,6 @@
- <mat-chip-listbox>
- 
-        <mat-chip-option   *ngFor="let skill of skills"color="warn"  #chip (click)="chip.selected =optionSelected(skill)">
-            {{skill.name}}
-        </mat-chip-option>
- </mat-chip-listbox>
+<div *ngFor="let skill of skills" (click)="skill.selected=optionSelected(skill)">
+{{skill.name}}
+</div>
 <div class="skill-details-container" *ngIf="selectedSkill  else standart">
     <span [ngStyle]="{'color': selectedSkill.level=='Entry-level'?'red':
     (selectedSkill.level=='Advanced'?'green':'orange')}">
